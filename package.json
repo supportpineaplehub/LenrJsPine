@@ -1,0 +1,43 @@
+{
+  "name": "pinejs",
+  "version": "0.0.1",
+  "description": "simple learing javascript free and opensouce with pineaple hub",
+  "keywords": [
+    "js",
+    "Lern",
+    "Js",
+    "Open"
+  ],
+  "homepage": "https://github.com/supportpineaplehub/LenrJsPine#readme",
+  "bugs": {
+    "url": "https://github.com/supportpineaplehub/LenrJsPine/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supportpineaplehub/LenrJsPine.git"
+  },
+  "license": "MIT",
+  "author": "openpineaple",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier . --write",
+    "check": "prettier . --check",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "3.5.3"
+  },
+  "lint-staged": {
+    "**/*.js": [
+    "eslint --fix",
+    "prettier --write"
+    ]
+  }
+}
