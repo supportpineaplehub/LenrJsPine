@@ -1,0 +1,11 @@
+{
+    "project": {
+      "title": "LernJsPine",
+      "description": "Simple learning javascript free and open sources",
+      "author": "pineplehub"
+    },
+    "tools": {
+      "library_used": "pinequiz",
+      "sponsorship": ["npm", "node", "github", "husky", "prettier"]
+    }
+  }
