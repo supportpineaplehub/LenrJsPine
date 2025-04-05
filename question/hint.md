@@ -8,14 +8,19 @@ contoh
 
 `quiz/pineaplehub`
 
+owh ya lupa sebelum buat bracnh clone dulu
+oke trus lu clone repo ini 
 
-Abis itu, masuk ke folder `question` terus bikin file baru pake format:
+```sh
+$ git clone https://github.com/supportpineaplehub/LenrJsPine.git
+```
 
-`{nick-lo}/{judul-pertanyaan}.txt`
+Abis itu, masuk ke folder `question` terus bikin file sama folder baru baru pake format:
+```sh
+mkdir -p question/pineaple #bisa gantu sama nama mu
+touch question/pineaple/apa-itu-scope-min.txt
+```
 
-contoh:
-
-`pineaple/apa-itu-scope-min.txt`
 kalu udha masuk ke file txt yg di bikin dan tulis apa yg mau di tanyakan kalau bisa pakai struktyur ini 
 
 ```txt
