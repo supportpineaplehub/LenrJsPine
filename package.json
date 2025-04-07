@@ -36,8 +36,13 @@
   },
   "lint-staged": {
     "**/*.js": [
-    "eslint --fix",
-    "prettier --write"
+      "eslint --fix",
+      "prettier --write"
     ]
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "papaparse": "^5.5.2"
   }
 }
